@@ -1,6 +1,6 @@
-name: UKD8 Subtheme
+name: UKD8 SubBase
 type: theme
-description: This is a starter sub theme of UK D8 Base theme using Limestone
+description: This is a starter subtheme of UK D8 Base theme using Limestone.
 core: 8.x
 
 # Defines the base theme
@@ -12,7 +12,7 @@ libraries:
 
 # Regions
 #Subtheme related regions can be created here. 
-#Example include subtheme_region, which can be renamed or removed as necessary
+#Example include subbase_region, which can be renamed or removed as necessary
 regions:
     alert: 'Site emergency alerts'
     universal_nav: 'Universal utility nav'
@@ -30,5 +30,5 @@ regions:
     footer_left: 'Footer left'
     footer_middle: 'Footer middle'
     footer_right: 'Footer right'
-    subtheme_region: 'Subtheme Region'
+    #subbase_region: 'SubBase Region'
   
