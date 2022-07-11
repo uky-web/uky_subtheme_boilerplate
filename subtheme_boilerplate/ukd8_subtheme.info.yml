@@ -1,7 +1,7 @@
 name: UKD8 SubBase
 type: theme
 description: This is a starter subtheme of UK D8 Base theme using Limestone.
-core: 8.x
+core_version_requirement: 8.x || 9.x
 
 # Defines the base theme
 base theme: ukd8
