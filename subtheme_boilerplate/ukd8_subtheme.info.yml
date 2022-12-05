@@ -32,3 +32,14 @@ regions:
     footer_right: 'Footer right'
     #subbase_region: 'SubBase Region'
   
+component-libraries:
+  atoms:
+    paths:
+      - elements/atoms
+  molecules:
+    paths:
+      - elements/molecules
+  components:
+    paths:
+      - elements/components
+
