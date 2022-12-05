@@ -9,6 +9,7 @@ base theme: ukd8
 # Defines libraries group in which we can add css/js.
 libraries:
   - ukd8/global
+# - uky_subbase_theme/global
 
 # Regions
 #Subtheme related regions can be created here. 
