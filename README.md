@@ -7,9 +7,12 @@ To make this subtheme boilerplate specific to your instance, you will need to ch
 
 1. Rename 'subtheme_boilerplate' to your specific subtheme name starting with uky_ (example: uky_studentsuccess_theme)
 2. Rename 'ukd8_subtheme.theme' to your specific subtheme name starting with uky_ (example: uky_studentsuccess_theme.theme)
-3. Rename 'ukd8_subtheme.libraries.yml' to your specific subtheme name starting with uky_ (example: uky_studentsuccess_libraries.yml)
-4. Rename 'ukd8_subtheme.info.yml' to your specific subtheme name starting with uky_ (example: uky_studentsuccess_info.yml)
-5. In your info.yml file you will need to edit lines 1, 3 and 12 to rename the files to match.
+3. In your .theme file you will need to edit lines 5 and 9 to the renamed theme.
+    - Line 5 - replace 'ukd8_subtheme_theme' with your theme name (example: uky_studentsuccess_theme_suggestions_block_alter)
+    - Line 9 - replace 'ukd8_subbase_' with your theme machine name (example: 'uky_studentsuccess_theme_') 
+4. Rename 'ukd8_subtheme.libraries.yml' to your specific subtheme name starting with uky_ (example: uky_studentsuccess_libraries.yml)
+5. Rename 'ukd8_subtheme.info.yml' to your specific subtheme name starting with uky_ (example: uky_studentsuccess_info.yml)
+6. In your info.yml file you will need to edit lines 1, 3 and 12 to rename theme name, the description and set the path to the theme specific libraries.
     - Line 1 - Rename to a human readable name such as 'UKY Student Success'
     - Line 3 - update the name in the description to a human readable name such as 'UKY Student Success'
     - Line 12 - uncomment this line and change the machine name to your specific name starting with uky_ (example: uky_studentsuccess_theme/global)
