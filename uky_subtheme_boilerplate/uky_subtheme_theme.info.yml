@@ -1,6 +1,6 @@
-name: UKD8 SubBase
+name: UKY Subtheme
 type: theme
-description: This is a starter subtheme of UK D8 Base theme using Limestone.
+description: This is a starter subtheme of UKD8 Base theme using Limestone.
 core_version_requirement: 8.x || 9.x
 
 # Defines the base theme
@@ -9,7 +9,7 @@ base theme: ukd8
 # Defines libraries group in which we can add css/js.
 libraries:
   - ukd8/global
-# - uky_subbase_theme/global
+# - uky_[subthemename]_theme/global
 
 # Regions
 #Subtheme related regions can be created here. 

@@ -2,10 +2,10 @@
 /**
  * Implements hook_theme_suggestions_HOOK_alter for blocks.
  */
-function ukd8_subtheme_theme_suggestions_block_alter(&$suggestions, $variables) {
+function uky_subtheme_theme_suggestions_block_alter(&$suggestions, $variables) {
 
   // Load theme suggestions for blocks from parent theme.
   foreach ($suggestions as &$suggestion) {
-    $suggestion = str_replace('ukd8_subbase_', 'ukd8_base_', $suggestion);
+    $suggestion = str_replace('uky_subtheme_theme_', 'ukd8_base_', $suggestion);
   }
 }
