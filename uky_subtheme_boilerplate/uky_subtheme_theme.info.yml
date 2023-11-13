@@ -1,7 +1,7 @@
 name: UKY Subtheme
 type: theme
 description: This is a starter subtheme of UKD8 Base theme using Limestone.
-core_version_requirement: 8.x || 9.x
+core_version_requirement: ^9.5 || ^10
 
 # Defines the base theme
 base theme: ukd8
@@ -33,14 +33,12 @@ regions:
     footer_right: 'Footer right'
     #subbase_region: 'SubBase Region'
   
-component-libraries:
-  atoms:
-    paths:
+components:
+  namespaces:
+    atoms:
       - elements/atoms
-  molecules:
-    paths:
+    molecules:
       - elements/molecules
-  components:
-    paths:
+    components:
       - elements/components
 
