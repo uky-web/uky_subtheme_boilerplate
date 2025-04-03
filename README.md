@@ -19,6 +19,8 @@ To make this subtheme boilerplate specific to your instance, you will need to ch
     - Line 3 - update the name in the description to a human readable name such as 'UKY Student Success'
     - Line 12 - uncomment this line and replace  `[subthemename]` (example: uky_studentsuccess_theme/global)
 
+4. In css/style.css you will need to uncomment lines 6-23, and update lines 7, 15, 19 with your theme name. (example: #block-uky-studentsuccess-theme-utilitynav-mobile)
+
 You are now ready to start subtheming!
 
 ## Inheriting block layout

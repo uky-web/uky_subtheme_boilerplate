@@ -16,11 +16,12 @@ libraries:
 #Example include subbase_region, which can be renamed or removed as necessary
 regions:
     alert: 'Site emergency alerts'
-    universal_nav: 'Universal utility nav'
+    #universal_nav: 'Universal utility nav'
     utility_nav: 'Utility nav'
     top_nav: 'Top nav'
     mobile_tab_mainmenu: 'Mobile main nav tab'
     mobile_tab_section: 'Mobile section nav tab'
+    mobile_tab_utility_nav: 'Mobile utility nav'
     page_top: 'Page top'
     page_bottom: 'Page bottom'
     content_prefix: 'Content prefix'
@@ -41,4 +42,3 @@ components:
       - elements/molecules
     components:
       - elements/components
-
