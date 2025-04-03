@@ -1,1 +1,24 @@
 /* This is where you put specific subtheme css rules */
+
+/* Mobile Utility Tab Nav is styled on specific block id - uncomment section and update block name */
+
+/*
+@media screen and (max-width: 76rem) {
+    #block-uky-subtheme-theme-utilitynav-mobile ul.menu li {
+        display: block;
+        font-size: 20px;
+        line-height: 50px;
+        font-weight: 500;
+        flex-grow: 1;
+    }
+
+    #block-uky-subtheme-theme-utilitynav-mobile ul.menu li a {
+        text-decoration: none;
+    }
+
+    #block-uky-subtheme-theme-utilitynav-mobile ul.menu li a:hover {
+        text-decoration: underline;
+        color: #fff;
+    }
+}
+*/
